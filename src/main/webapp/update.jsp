@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-   <h1>${msg}</h1>
+<form action="update">
+<input type="text" name="id" placeholder="enter id"> 
+ <input type="text" name="sal" placeholder="enter sal">
+  <input type="submit" value="Update">
+</form>
 </body>
 </html>

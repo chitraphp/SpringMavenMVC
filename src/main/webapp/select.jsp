@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-   <h1>${msg}</h1>
+<form action="select">
+	<input type="text" name="id" placeholder="enter id">
+	<input type="submit" value="Get Record">
+</form>
 </body>
 </html>
